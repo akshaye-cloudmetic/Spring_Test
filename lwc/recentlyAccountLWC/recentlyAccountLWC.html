@@ -1,0 +1,12 @@
+<template>
+	<lightning-card icon-name="standard:account">
+		<lightning-layout multiple-rows="true">
+			<lightning-layout-item size="12" padding="around-small" small-device-size="12" medium-device-size="12"
+				large-device-size="12">
+				<lightning-datatable key-field="id" data={accountList} columns={coloumns}>
+				</lightning-datatable>
+			</lightning-layout-item>
+		</lightning-layout>
+	</lightning-card>
+
+</template>
